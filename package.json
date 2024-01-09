@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_tensor-flow",
+  "version": "1.0.0",
+  "description": "Tensor Flow with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsf-js": "node index.js",
+    "tsf-node": "node tsf-node.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashtech-garage/nodejs_tensor-flow.git"
+  },
+  "keywords": [
+    "node.js",
+    "tensorflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nashtech-garage/nodejs_tensor-flow/issues"
+  },
+  "homepage": "https://github.com/nashtech-garage/nodejs_tensor-flow#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.15.0",
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "@tensorflow/tfjs-node-gpu": "^4.15.0"
+  }
+}
