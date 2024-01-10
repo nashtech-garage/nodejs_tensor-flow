@@ -1,2 +1,2 @@
-# nodejs_tensor-flow
-Tensor Flow in Nodejs
+# Tensorflow with Nodejs
+This repository will contain some practices about tensorflow
